@@ -1,0 +1,15 @@
+.sensorWrapper {
+  background-color: #045922;
+}
+
+.sensorBlock {
+  background-color: #045922;
+}
+.sensorContentContainer {
+  height: max-content;
+}
+.sensorHeading {
+  color: #ffff;
+  font-size: 1.3rem;
+  width: max-content;
+}

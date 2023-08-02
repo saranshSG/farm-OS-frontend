@@ -1,0 +1,17 @@
+
+
+
+.cropCycleBlock{
+    background-color: rgba(7, 17, 13, 0.458);
+    color: #ffff;
+    min-height: 60vh;
+}
+.cropCycleOption.selected{
+    border-bottom: 2px solid rgb(41, 180, 25);
+    color:rgb(41, 180, 25);
+}
+
+.cropCycleOption{
+    border-bottom: 1px solid #ffff;
+    cursor: pointer;
+}

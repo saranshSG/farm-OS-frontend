@@ -1,0 +1,53 @@
+.singleFeedBlock {
+  background-color: #ffff;
+  color: black;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+.singleFeedDetailsBlock {
+  font-size: 0.7rem;
+  color: grey;
+}
+.singleFeedHeadingBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+}
+.singleFeedHeading {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.singleFeedHeading.red {
+  color: #d96666;
+}
+.singleFeedHeading.yellow {
+  color: #fea729;
+}
+.singleFeedHeading.green {
+  color: #359135;
+}
+.singleFeedDetailsBlock {
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+}
+.singleFeedIcon.red {
+  color: #d96666;
+}
+.singleFeedIcon.yellow {
+  color: #fea729;
+}
+.singleFeedIcon.green {
+  color: #359135;
+}
+.singleFeedItem {
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 420px) {
+  .singleFeedHeading {
+    font-size: 0.8rem;
+  }
+  .singleFeedDetailsBlock {
+    padding: 0rem 0.1rem 0rem 0.1rem;
+  }
+}

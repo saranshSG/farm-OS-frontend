@@ -1,0 +1,86 @@
+.map {
+    z-index: 1;
+  }
+  
+  .leaflet-container img.leaflet-image-layer {
+    width: auto !important;
+    max-width: auto !important;
+  }
+  .loadGeoJsonBlock {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #464646;
+  }
+  .downloadGeoJsonBlock {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #464646;
+    border-top: 0.2px solid #cccccc;
+  }
+  .editControlBlock {
+    cursor: pointer;
+  }
+  
+
+
+  .mapFormContainer {
+    height: 50vh;
+    width: 66vw;
+  }
+
+ 
+
+  /*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) and (orientation: landscape) {
+ 
+}
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+  
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+ 
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  
+}
+@media screen and (max-width: 840px) and (orientation: portrait) {
+ 
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+}
+@media screen and (max-width: 580px) and (orientation: landscape) {
+}
+@media screen and (max-width: 480px) and (orientation: portrait) {
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
+ 
+  .mapFormContainer {
+    height: 40vh;
+    width: 80vw;
+    margin: 0.5rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+}

@@ -1,0 +1,18 @@
+.profileBlock {
+    background-color: #1eb296;
+    border-radius: 0.4rem;
+    color: #ffff;
+  }
+  
+ 
+.profileIconNameContainer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.715);
+}
+
+
+.profileEmailPhone {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.715);
+}
+ .profileChangePassEdit {
+     color:rgba(255, 255, 255, 0.595);
+ }

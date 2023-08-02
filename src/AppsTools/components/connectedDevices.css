@@ -1,0 +1,164 @@
+.connectedDevicesBlock {
+  background-color: #21de7b;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 10.8vw;
+  height: 29.6vh;
+  padding: 1rem;
+  color: #15773f;
+  font-size: 0.8rem;
+}
+
+.connectedDevicesNumber {
+  font-size: 3.5rem;
+}
+
+.connectedDevicesHeading {
+  margin: 1rem 0 0rem 0;
+}
+
+.connectedDevicesDetailsDescription {
+  margin: 0.1rem 0 0.1rem 0;
+  font-size: 0.7rem;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) and (orientation: portrait) {
+  .connectedDevicesHeading {
+    margin: 3rem 0 0rem 0;
+  }
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .connectedDevicesBlock {
+    width: 19vw;
+    font-size: 1.2rem;
+  }
+  .connectedDevicesHeading {
+    margin: 4rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .connectedDevicesBlock {
+    width: 19vw;
+    height: 26vh;
+    font-size: 1.2rem;
+  }
+  .connectedDevicesHeading {
+    margin: 0rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .connectedDevicesBlock {
+    margin: 0 0.5rem 1rem 0rem;
+    width: 15vw;
+    height: 48vh;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .connectedDevicesNumber {
+    font-size: 3rem;
+  }
+
+  .connectedDevicesHeading {
+    margin: 0.8rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .connectedDevicesBlock {
+    width: 18vw;
+    font-size: 1rem;
+  }
+  .connectedDevicesHeading {
+    margin: 1rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .connectedDevicesBlock {
+    margin: 0 0.5rem 1rem 0rem;
+    width: 15vw;
+    height: 48vh;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .connectedDevicesNumber {
+    font-size: 3rem;
+  }
+
+  .connectedDevicesHeading {
+    margin: 0.8rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .connectedDevicesBlock {
+    margin: 0 0.5rem 1rem 0rem;
+    width: 15vw;
+    height: 50vh;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .connectedDevicesNumber {
+    font-size: 3rem;
+  }
+
+  .connectedDevicesHeading {
+    margin: 0.8rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 580px) and (orientation: landscape) {
+  .connectedDevicesBlock {
+    margin: 0 0.5rem 1rem 0rem;
+    width: 15vw;
+    height: 60vh;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .connectedDevicesNumber {
+    font-size: 3rem;
+  }
+
+  .connectedDevicesHeading {
+    margin: 0.5rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
+  .connectedDevicesBlock {
+    margin: 0 1rem 1rem 0rem;
+    width: 30vw;
+    height: 26vh;
+    padding: 0.8rem 1rem 1rem 1rem;
+    font-size: 0.6rem;
+  }
+
+  .connectedDevicesNumber {
+    font-size: 2.5rem;
+  }
+
+  .connectedDevicesHeading {
+    margin: 0.8rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+  .connectedDevicesBlock {
+    margin: 0 0.4rem 1rem 0rem;
+    width: 24vw;
+    height: 26vh;
+
+    font-size: 0.6rem;
+  }
+  .connectedDevicesHeading {
+    margin: 0rem 0 0rem 0;
+  }
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+}

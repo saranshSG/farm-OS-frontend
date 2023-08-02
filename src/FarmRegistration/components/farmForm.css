@@ -1,0 +1,82 @@
+.logoImg {
+    margin: auto;
+  }
+  
+  .registerFarmFormWrapper {
+    /* Center vertically */
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .registerFarmFormBlock {
+    margin: auto;
+  }
+  
+  .registerFarmForm {
+   color: #fff;
+  }
+  
+  .goToLoginLinkBlock {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .goToLoginLink {
+    color: #56e578;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  
+  .registerFarmFormInputField{border-radius: 0.4rem;
+  color:black}
+  
+  .reusableContainer{
+    border-bottom: 1px dotted #ffff;
+  }
+  
+  
+
+  .loginFromLogoBlock {
+    width: 100%;
+ 
+  }
+    
+  .loginFormLogoImg {
+    width: 8%;
+    padding: 0;
+  }
+  
+  .loginFormIntroTag {
+    font-size: 1rem;
+    color: #ffff;
+    padding: 1% 0 2% 0;
+  }
+
+
+
+.autocomplete_dropdown_container {
+  position: absolute;
+  background-color: #ffff;
+  color: #6e6c6c;
+  margin: 0.1rem 0.2rem 0.2rem 0.2rem;
+  border-radius: 5px;
+  z-index:10;
+}
+
+
+
+.farmNameInputField {
+  width: 60%;
+  height: 85%;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0 0.5rem 0 0.5rem;
+  outline: 0.5px solid transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-size: 1rem;
+  transition: all 200ms ease-in-out;
+  color:black;
+}

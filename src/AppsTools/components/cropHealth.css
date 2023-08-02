@@ -1,0 +1,126 @@
+.cropHealthBlock {
+  background-color: #ffff;
+  width: 100%;
+  border-radius: 0.6rem;
+  color: #15773f;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0;
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cropHealthPercentage {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+
+@media screen and (max-width: 1370px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .cropHealthBlock {
+    width: 28vw;
+    margin: 0 0 0 1.5rem;
+    padding: 2.5rem 0.6rem 2.5rem 0.6rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .cropHealthBlock {
+    width: 28vw;
+    margin: 0 0 0 1.5rem;
+    padding: 2.5rem 0.6rem 2.5rem 0.6rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .cropHealthBlock {
+    background-color: #ffff;
+    padding: 0.6rem;
+    width: 26vw;
+    border-radius: 0.6rem;
+    color: #15773f;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .cropHealthPercentage {
+    font-size: 3.5rem;
+    font-weight: 100;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .cropHealthBlock {
+    width: 28vw;
+    margin: 0 0 0 1.5rem;
+    font-size: 0.8rem;
+    padding: 1.2rem 0.6rem 1.2rem 0.6rem;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .cropHealthBlock {
+    background-color: #ffff;
+    padding: 0.6rem;
+    width: 26vw;
+    border-radius: 0.6rem;
+    color: #15773f;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .cropHealthPercentage {
+    font-size: 3.5rem;
+    font-weight: 100;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .cropHealthBlock {
+    background-color: #ffff;
+    padding: 0.6rem;
+    width: 27vw;
+    border-radius: 0.6rem;
+    color: #15773f;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .cropHealthPercentage {
+    font-size: 3.5rem;
+    font-weight: 100;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
+  .cropHealthBlock {
+    background-color: #ffff;
+    padding: 0.6rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    color: #15773f;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .cropHealthPercentage {
+    font-size: 3.5rem;
+    font-weight: 100;
+  }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+}

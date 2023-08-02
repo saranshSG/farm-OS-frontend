@@ -1,0 +1,10 @@
+.weatherBlock {
+  background-color: #1eb296;
+  border-radius: 0.4rem;
+  color: #ffff;
+}
+
+.weatherIconInfoContainer {
+  background-color: #65d8c3;
+  border-radius: 0.4rem;
+}

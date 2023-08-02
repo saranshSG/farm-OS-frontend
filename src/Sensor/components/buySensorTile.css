@@ -1,0 +1,10 @@
+.buySensorTileWrapper {
+  background-color: #1422135e;
+  border: 0.5px solid #239617;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.buySensorTileWrapper:hover {
+  border: 0.5px solid #4be03b;
+}

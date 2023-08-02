@@ -1,0 +1,19 @@
+.sensorAnalyticsNav {
+  background-color: rgba(56, 255, 179, 0.604);
+  color: #ffff;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+}
+
+.sensorAnalyticsNavSensorLocation {
+  font-size: 0.6rem;
+}
+
+.sensorAnalyticsContentConatiner {
+  background-color: rgba(13, 198, 127, 0.6039215686274509);
+  color: #ffff;
+  border-bottom-right-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  height:max-content;
+}
+

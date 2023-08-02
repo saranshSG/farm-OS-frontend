@@ -1,0 +1,36 @@
+.logoImg {
+  margin: auto;
+}
+
+.registerFormWrapper {
+  /* Center vertically */
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.registerFormBlock {
+  margin: auto;
+}
+
+.registerForm {
+ color: #fff;
+}
+
+.goToLoginLinkBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.goToLoginLink {
+  color: #56e578;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.registerFormInputField{border-radius: 0.4rem;
+color:black}
+
+
+

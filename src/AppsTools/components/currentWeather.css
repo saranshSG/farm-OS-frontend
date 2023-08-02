@@ -1,0 +1,212 @@
+.currentWeatherBlock {
+  color: #ffff;
+  background-color: #1eb296;
+  margin: 0 0.7rem 1rem 1rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 10.8vw;
+  height: 29.6vh;
+  padding: 1rem;
+}
+
+.currentWeatherTempBlock {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin: 0.5rem 0 0rem 0;
+}
+
+.currentWeatherDescription {
+  font-size: 0.7rem;
+}
+.currentWeatherIcon {
+  height: 50px;
+  width: 50px;
+}
+.currentWeatherHeading {
+  margin: 1rem 0 1rem 0;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) and (orientation: portrait) {
+  .currentWeatherHeading {
+    margin: 3rem 0 1rem 0;
+  }
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .currentWeatherBlock {
+    width: 19vw;
+    font-size: 1.2rem;
+  }
+  .currentWeatherHeading {
+    margin: 4rem 0 1rem 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 2rem;
+  }
+  .currentWeatherDescription {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .currentWeatherBlock {
+    width: 19vw;
+    font-size: 1.2rem;
+    height: 26vh;
+  }
+  .currentWeatherHeading {
+    margin: 0.5rem 0 1rem 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 2rem;
+  }
+  .currentWeatherDescription {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .currentWeatherBlock {
+    color: #ffff;
+    background-color: #1eb296;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 62.5vw;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+  }
+  .currentWeatherIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .currentWeatherHeading {
+    margin: 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 1.6rem;
+  }
+  .currentWeatherDescription {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .currentWeatherBlock {
+    width: 18vw;
+    font-size: 1rem;
+  }
+  .currentWeatherHeading {
+    margin: 2rem 0 1rem 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 1.6rem;
+  }
+  .currentWeatherDescription {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .currentWeatherBlock {
+    color: #ffff;
+    background-color: #1eb296;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 62.5vw;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+  }
+  .currentWeatherIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .currentWeatherHeading {
+    margin: 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 1.6rem;
+  }
+  .currentWeatherDescription {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .currentWeatherBlock {
+    color: #ffff;
+    background-color: #1eb296;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 62.5vw;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+  }
+  .currentWeatherIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .currentWeatherHeading {
+    margin: 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 1.6rem;
+  }
+  .currentWeatherDescription {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
+  .currentWeatherBlock {
+    color: #ffff;
+    background-color: #1eb296;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 93vw;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+    text-align: center;
+  }
+  .currentWeatherIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .currentWeatherHeading {
+    margin: 0;
+  }
+  .currentWeatherTempBlock {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .currentWeatherDescription {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+}

@@ -1,0 +1,173 @@
+.agroFeedBlock {
+  width: 22.5vw;
+  height: 30.2vh;
+  background-color: #07824f;
+  margin: 0 1rem 1rem 1rem;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  color: #ffff;
+}
+.agroFeedHeading {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0.2rem 0 0.2rem 0.8rem;
+}
+
+.agroFeedListBlock {
+  height: 75%;
+  width: 95%;
+  margin: 0 0 0 0.5rem;
+  overflow-y: scroll;
+}
+
+.agroListItem {
+  height: 40%;
+  margin: 0.8rem 0.4rem 0.4rem 0.4rem;
+}
+.poweredByBlock {
+  font-size: 0.5rem;
+  font-weight: 300;
+  text-align: right;
+  padding: 0.5rem;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) and (orientation: portrait) {
+  .agroFeedBlock {
+    width: 22.5vw;
+    height: 27.2vh;
+    margin: 0 0rem 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .agroFeedBlock {
+    width: 45vw;
+    height: 22.5vh;
+    margin: 0 0rem 1rem 1rem;
+  }
+  .agroFeedListBlock {
+    height: 80%;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .agroFeedBlock {
+    width: 45vw;
+    height: 36vh;
+    margin: 0 0rem 1rem 1rem;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .agroFeedBlock {
+    width: 41vw;
+    height: 53.5vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+
+  .agroListItem {
+    height: max-content;
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .agroFeedBlock {
+    width: 45vw;
+    height: 22.2vh;
+    margin: 0 0rem 1rem 1rem;
+  }
+  .agroFeedListBlock {
+    height: 75%;
+    width: 95%;
+    margin: 0 0 0 0.5rem;
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .agroFeedBlock {
+    width: 41vw;
+    height: 53.5vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+
+  .agroListItem {
+    height: max-content;
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .agroFeedBlock {
+    width: 40vw;
+    height: 56vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+
+  .agroListItem {
+    height: max-content;
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 580px) and (orientation: landscape) {
+  .agroFeedBlock {
+    width: 40vw;
+    height: 67vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+
+  .agroListItem {
+    height: max-content;
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
+  .agroFeedBlock {
+    width: 58vw;
+    height: 26vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0.1rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+  .agroFeedListBlock {
+    height: 75%;
+    width: 95%;
+    margin: 0 0 0 0.5rem;
+    overflow-y: scroll;
+  }
+  .agroListItem {
+    height: max-content;
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+  .agroFeedBlock {
+    width: 56vw;
+    height: 29.5vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0.1rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+}

@@ -1,0 +1,24 @@
+.settingsNavBlock{
+    background-color: #0A9B5A;
+}
+
+.settingsNavItems{
+    background-color: #24BD79;
+   
+}
+
+
+
+.settingsNavItems {
+    color:#ffff
+}
+
+.settingsNavOptions{
+cursor: pointer;
+}
+
+.settingsNavOptions.selected{
+    border-left: 3px solid #075b35d1;
+    font-weight: 600;
+    
+}

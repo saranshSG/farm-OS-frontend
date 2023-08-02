@@ -1,0 +1,17 @@
+.settingsWrapper {
+    background-color: #045922;
+  }
+  
+  .settingsBlock {
+    background-color: #045922;
+  }
+  .settingsContentContainer {
+    height: max-content;
+  }
+  .settingsHeading {
+    color: #ffff;
+    font-size: 1.3rem;
+    width: max-content;
+    padding:0.5rem 0 0.5rem 0;
+  }
+  

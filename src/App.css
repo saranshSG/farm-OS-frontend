@@ -1,0 +1,36 @@
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #045922 #239617;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #045922;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #239617;
+  border-radius: 20px;
+  border: none;
+}
+
+.os_button {
+  background-color: #33de7b;
+  color: #127763;
+}
+
+.os_dropdown {
+  background: transparent;
+  color: inherit;
+  outline: none;
+}
+
+.os_dropdownOption {
+  background: rgba(0, 0, 0, 0.5529411764705883);
+  color: inherit;
+}

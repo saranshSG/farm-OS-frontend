@@ -1,0 +1,19 @@
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.quickAccessBlock {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #045922;
+}
+
+.homeWrapper {
+  background-color: #045922;
+}
+
+.homeBlock {
+  background-color: #045922;
+}
